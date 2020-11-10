@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <form action="submit-information" method="POST">
+        <fieldset>
+          <legend>Car Insurance Form</legend>
+          <div>
+            <label for="first-name">First Name:</label>
+            <input
+              type="text"
+              id="first-name"
+              name="first-name"
+              required
+              maxlength="30"
+            />
+          </div>
+          <div>
+            <label for="last-name">Last Name:</label>
+            <input
+              type="text"
+              id="last-name"
+              name="last-name"
+              required
+              maxlength="50"
+            />
+          </div>
+          <div>
+            <label for="insurance-type">insurance type:</label>
+            <input
+              type="text"
+              id="insurance-type"
+              name="insurance-type"
+              disabled
+              value="insurace type 1"
+            />
+          </div>
+            </div>
+            <div><label for="input-image">User picture</label>
+                <input type="file" id="input-image" name="user-picture" accept="image/*"/></div>
+            <div>
+            <div>
+                <label for="adress">Adress:</label>
+                <input type="text" id="adress" name="adress" required maxlength="150" />
+            </div>
+            <div>
+                <label for="house-number">House number:</label>
+                <input type="number" id="house number" name="house number" required minlength="1" maxlength="300" />
+            </div>
+            <div>
+                <label for="postal-code">Postal code:</label>
+                <input type="number" id="postal-code" name="postal-code" required />
+            </div>
+<div>
+    <label for="city">City:</label>
+    <input list="city-1" type="city" id="city" name="city" required>
+    <datalist id="city-1">
+        <option value="Berlin">
+        <option value="Hamburg">
+        <option value="Leipzig">
+        <option value="Stuttgart">
+        <option value="Horb am Neckar">
+        <option value="Tübingen">
+        <option value="Düsseldorf">
+        <option value="Essen">
+        <option value="Ratingen">
+    </datalist>
+    </div>
+    <div>
+        <label for="car-brand">Car brand</label>
+        <select id="car-brand" name="car-brand" required>
+            <optgroup label="Car brand">
+                <option value="bMW">BMW</option>
+                <option value="ford">Ford</option>
+                <option value="hyundai">Hyundai</option>
+                <option value="mazda">Mazda</option>
+                <option value="volkswagen">Volkswagen</option>
+                <option value="kia">Kia</option>
+                <option value="audi">Audi</option>
+                <option value="nissan">Nissan</option>
+                <option value="ferrari">Ferrari</option>
+                <option value="porsche">Porsche</option>
+          
+            </optgroup>
+    </div>
+        </fieldset>
+      </form>
+    </main>
+  </body>
+</html>

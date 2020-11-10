@@ -1,0 +1,17 @@
+div {
+  padding: 10px;
+}
+legend {
+  text-align: center;
+  background-color: #84c1f3;
+  font-size: 1.5rem;
+}
+input:invalid {
+  background-color: #d1a6a6;
+}
+input:valid {
+  background-color: #9bc99b;
+}
+input:focus {
+  border: black solid 3px;
+}
